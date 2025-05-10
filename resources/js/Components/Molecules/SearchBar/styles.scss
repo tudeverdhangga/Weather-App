@@ -1,0 +1,12 @@
+.search-bar {
+	@apply
+		w-[500px]
+		py-2
+		px-2
+		text-[12px]
+		mb-4;
+
+		.search-input {
+			@apply bg-[#222B3A] w-full rounded-lg border-0;
+		}
+}

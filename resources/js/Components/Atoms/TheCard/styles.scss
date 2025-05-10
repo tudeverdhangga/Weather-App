@@ -1,0 +1,19 @@
+.the-card {
+	@apply
+		rounded-lg
+		bg-[#222B3A]
+		p-6
+		w-full
+		h-full
+		flex
+		flex-col;
+
+	&__title {
+		@apply
+			uppercase
+			text-[#939BA6]
+			text-[12px]
+			font-bold
+			mb-4;
+	}
+}

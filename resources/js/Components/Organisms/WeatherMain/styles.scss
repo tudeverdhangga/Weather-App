@@ -1,0 +1,36 @@
+.weather-main {
+	@apply
+		p-6
+		flex
+		justify-between
+		items-center
+		w-full
+		h-[30%];
+
+	&__info {
+		@apply
+			h-full
+			flex
+			flex-col
+			justify-between;
+
+		.info-city {
+			&__name {
+				@apply text-[30px] font-bold;
+			}
+			&__desc {
+				@apply text-[12px];
+			}
+		}
+		.info-temp {
+			@apply text-[40px] font-bold;
+		}
+	}
+	&__icon {
+		@apply h-full;
+		
+		img {
+			@apply h-full;
+		}
+	}
+}

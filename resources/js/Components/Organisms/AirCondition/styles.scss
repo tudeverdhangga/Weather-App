@@ -1,0 +1,38 @@
+.air-condition {
+	@apply h-[40%] w-full;
+
+	&__container {
+		@apply flex h-full max-h-full;
+
+		.container-row {
+			@apply w-full flex flex-col;
+
+			.container-column {
+				@apply h-full max-h-full;
+
+				&__content {
+					@apply flex h-full max-h-full;
+
+					.content-icon {
+						@apply
+							text-center
+							w-[30px]
+							text-[24px]
+							text-[#939BA6]
+							mr-4;
+					}
+					.content-label {
+						@apply w-full flex flex-col h-full;
+
+						&__name {
+							@apply text-[14px] mb-1 text-[#939BA6];
+						}
+						&__temp {
+							@apply text-[22px] leading-[20px] font-bold max-h-[45px];
+						}
+					}
+				}
+			}
+		}
+	}
+}

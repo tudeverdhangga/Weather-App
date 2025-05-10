@@ -1,0 +1,13 @@
+.today-hourly-forecast {
+	@apply flex flex-col items-center;
+
+	&__time {
+		@apply text-[16px] text-[#939BA6];
+	}
+	&__icon {
+		@apply w-[75px];
+	}
+	&__temp {
+		@apply text-[24px] font-bold;
+	}
+}

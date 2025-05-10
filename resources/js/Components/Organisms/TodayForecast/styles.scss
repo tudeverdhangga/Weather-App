@@ -1,0 +1,11 @@
+.today-forecast {
+	@apply h-[30%];
+
+	&__content {
+		@apply flex justify-between h-full;
+
+		.content-item:not(:last-child) {
+			@apply border-r-[1px] border-r-[#939BA6];
+		}
+	}
+}

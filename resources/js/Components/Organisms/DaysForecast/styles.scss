@@ -1,0 +1,17 @@
+.days-forecast {
+	@apply h-full w-full;
+
+	&__content {
+		@apply
+			flex
+			flex-col
+			justify-between
+			h-full
+			w-full
+			gap-2;
+
+		.content-item:not(:last-child) {
+			@apply border-b-[1px] border-b-[#939BA6];
+		}
+	}
+}

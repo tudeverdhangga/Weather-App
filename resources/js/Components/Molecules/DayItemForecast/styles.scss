@@ -1,0 +1,37 @@
+.day-item-forecast {
+	@apply 
+		h-full
+		w-full
+		flex
+		items-center
+		justify-between;
+
+	&__day {
+		@apply
+			w-full
+			text-[16px]
+			text-[#939BA6];
+	}
+	&__weather {
+		@apply w-full flex items-center justify-center;
+
+		.weather-icon {
+			@apply w-[60px] mr-2;
+		}
+		.weather-label {
+			@apply text-[16px] font-bold;
+		}
+	}
+	&__temp {
+		@apply w-full flex items-center justify-end;
+		
+		@apply text-[16px];
+
+		.temp-max {
+			@apply font-bold;
+		}
+		.temp-min {
+			@apply text-[#939BA6];
+		}
+	}
+}
