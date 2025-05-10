@@ -25,13 +25,13 @@ A weather application built using Vue 3 Composition API and Laravel backend. It 
 ---
 
 ## 📦 Backend Setup Instructions
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan serve
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan serve
 
 ## 📦 Frontend Setup Instructions
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 MIT © 2025 Tude Verdhangga
